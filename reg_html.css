@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(245, 245, 245);
+
+    text-align: center;
+}
+
+header {
+    top: 0px;
+
+    font-size: 45px;
+    font-family:'arial black' ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+
+    letter-spacing: 2px;
+     
+    box-sizing: border-box;
+}
+
+header h1 {
+    box-sizing: border-box;
+    padding-top: 3%;
+
+    color: black;
+    text-shadow: 5px 5px 3px gray;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    
+    text-align: left;
+
+    position: absolute;
+    bottom: 0;
+    
+
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    font-family: Courier, monospace;
+}
+
+form {
+    
+    margin: 0% 34% 0% 34%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+
+    padding: 8%;
+    padding-left: 58px;
+    padding-bottom: 3%;
+
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 5px black;
+
+    background-color: white;
+    
+}
+
+a {
+    position: relative;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+
+    margin-right: 48px;
+    
+}
+
+input {
+    position: relative;
+    box-sizing: border-box;
+    
+    padding: 3px;
+    padding-bottom: 0;
+    margin: 10px;
+
+    border: none;
+    border-bottom: 2px solid black;
+
+    font-family: monospace;
+    font-size: 22px;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+#password2 {
+    
+    margin-bottom: 0;
+}
+
+input[type=submit] {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+
+    position: relative;
+    box-sizing: border-box;
+
+    margin-right: 0;
+    margin-left: 45px;
+    padding: 6px;
+}
+
+input[type=submit]:active {       
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 3px rgb(32, 32, 32);
+}
+
+input[type="text"]{
+    box-sizing: border-box;
+    margin-right: 0;
+    margin-left: 45px;
+}
+
+input[type="email"]{
+    box-sizing: border-box;
+    margin-right: 0;
+    margin-left: 45px;
+}
+
+input[type="password"]{
+    box-sizing: border-box;
+    margin-right: 0;
+    margin-left: 45px;
+
+}
+
+input[type="radio"]{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+label {
+    
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    margin-left: 20px;
+}
+
+
+
